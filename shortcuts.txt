@@ -1,1 +1,5 @@
 Ponerse sobre una palabra y apretar F2 para cambiar el nombre de esa palabra en todo el codigo
+
+Ejecutar proyecto: ng serve -o   / npm start
+
+Inicializar un componente de forma rapida: a-component

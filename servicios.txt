@@ -1,0 +1,5 @@
+un servicio es simplemente una clase.
+inyectable en un servicio
+providedIn: root   nos permite trabajar con singleton
+Para hacer la inyeccion de dependencias debemos crear un constructor y traer el servicio. En la mainPageComponent
+constructor(public dbzService:DbzService){}

@@ -1,0 +1,27 @@
+carpetas "pages" contienen  las url de navegacion, las cuales se componen de multiples componentes.
+
+archivos "components" contienen codigo relevante para una pagina, simplificando visualmente el contenido de la pagina, ya que,
+un componente es como una funcion traida de otra pagina.
+
+
+una variable llamada   Characters[] es un arreglo(matriz). Ngfor nos permite iterar los elementos de una matriz
+
+@input nos permite llamar una property desde el mundo exterior (desde otra pagina). La property debajo del input es la que se comparte a todos
+
+NgClass nos permite añadir clases de CSS de forma condicionada, ejemplo: Cambiar el color solamente en el ultimo elemento
+
+NgModel se puede utilizar en 2way data binding (si se cambia el dato en algun lado tambien lo hara en sus otros lados), se utiliza de
+forma [(ngModel)] = "". El ngmodel nos sirve para crear un evento y asociar un atributo.
+
+(algo): es un evento
+
+Module: Cuando algo trae la palabra MODULE es que se utiliza dentro de un input
+
+(ngSubmit): permite el envio de la informacion, incluso cuando presionan enter
+
+Emitir: cuando se hace un envio de información, como un evento. Esto lo logramos con @output(). Con () escuchamos eventos con
+ [] atributos. El padre que recibe el evento del output recibe lo emitido con $event
+
+
+hacer ... se llama spread, sirve como herencia, donde lo que viene despees de los puntos pone todas sus caracteristicas en el nuevo
+objeto que estamos creando. como en ...character

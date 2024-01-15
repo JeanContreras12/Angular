@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { CounterModule } from './counter/components/counter.module';
 import { HeroesModule } from './heores/components/heores.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HeroesModule } from './heores/components/heores.module';
     BrowserModule,
     CounterModule,
     HeroesModule,
+    DbzModule,
 
   ],
   providers: [],
