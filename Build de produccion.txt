@@ -1,0 +1,3 @@
+El build de produccion se procesa con un metodo llamado tree shaking donde botamos las "hojas" (archivos) que estan de mas para la web
+de esta forma le bajamos el peso necesario para utilizarlo.
+Para realizar esto debemos ejecutar en la consola ng build
